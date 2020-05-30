@@ -62,6 +62,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9529412, g: 0.7372549, b: 0.22745098, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -178,6 +179,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -335,6 +337,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9529412, g: 0.7372549, b: 0.22745098, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -402,7 +405,7 @@ GameObject:
   - component: {fileID: 8582619946082851314}
   - component: {fileID: 8582619946082851308}
   - component: {fileID: 8582619946082851315}
-  - component: {fileID: 4809658142523380842}
+  - component: {fileID: 588284978238034079}
   m_Layer: 5
   m_Name: GameOverButtons
   m_TagString: Untagged
@@ -458,7 +461,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4809658142523380842
+--- !u!114 &588284978238034079
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -467,7 +470,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8582619946082851313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25c24ec144b995e47ac4303714c93c18, type: 3}
+  m_Script: {fileID: 11500000, guid: 25755e0af66e4d545b4e5df6f237581b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnPlayAgain: {fileID: 8582619944982341887}
@@ -532,6 +535,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
